@@ -5,12 +5,12 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
-import static apiTests.ReqresUri.*;
+import static helpers.ReqresUri.*;
 import static io.restassured.RestAssured.*;
 import static io.restassured.http.ContentType.JSON;
 import static org.hamcrest.Matchers.*;
 
-public class ReqresTests extends TestBase {
+public class BaseReqresTests extends TestBase {
 
     String supportMessage = "To keep ReqRes free, contributions towards server costs are appreciated!";
     String bodyCreateUser = "{ \"name\": \"morpheus\", \"job\": \"leader\" }";

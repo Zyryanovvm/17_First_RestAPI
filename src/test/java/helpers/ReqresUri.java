@@ -1,4 +1,4 @@
-package apiTests;
+package helpers;
 
 public class ReqresUri {
     public static final String singleUsersUri = "/api/users/";
